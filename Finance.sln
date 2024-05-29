@@ -3,19 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finance.Api", "Finance.Api\Finance.Api.csproj", "{F7CD7177-6791-4987-8788-6943884DE9AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Finance.Api", "Finance.Api\Finance.Api.csproj", "{F7CD7177-6791-4987-8788-6943884DE9AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finance.Core", "Finance.Core\Finance.Core.csproj", "{450E9BE3-0FCC-4F03-8D03-0EDFCDAE6EF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Finance.Core", "Finance.Core\Finance.Core.csproj", "{450E9BE3-0FCC-4F03-8D03-0EDFCDAE6EF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finance.Web", "Finance.Web\Finance.Web.csproj", "{608CF7DB-01F2-4DDD-8EDC-01F7FED1583D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Finance.Web", "Finance.Web\Finance.Web.csproj", "{608CF7DB-01F2-4DDD-8EDC-01F7FED1583D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F7CD7177-6791-4987-8788-6943884DE9AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +27,8 @@ Global
 		{608CF7DB-01F2-4DDD-8EDC-01F7FED1583D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{608CF7DB-01F2-4DDD-8EDC-01F7FED1583D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{608CF7DB-01F2-4DDD-8EDC-01F7FED1583D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
